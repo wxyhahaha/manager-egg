@@ -1,0 +1,120 @@
+'use strict';
+const Controller = require('egg').Controller;
+class GoodsController extends Controller {
+ async insert(){ 
+    const { ctx, app } = this;
+    let data = ctx.request.body;
+    let goodsID = ctx.helper.getRandomId(6)
+    let result = Object.assign({ 'goodsID' : goodsID }, data)
+    try{
+      await app.model.Goods.create(result)
+      ctx.body = {
+        'data':{
+          code:0,
+          'result':'success',
+        }
+      };
+    }
+    catch(e){
+        ctx.logger.error('添加失败',e)
+        ctx.body = {
+            'data':{
+              code:400,
+              'result':'fail',
+            }
+          };
+    }
+  }
+ async list(){ 
+     let { ctx, app, service } = this;
+     let { Op } = this.app.Sequelize
+     let { Sequelize } = app
+     let { 
+         goodsId, 
+         goodsName,
+         dateAdd,
+         dateUpdate,
+         pageSize,
+         page
+        } = ctx.request.body
+     let where = { }
+    goodsId ? Object.assign(where,{ goodsId:goodsId }) : where
+    goodsName ? Object.assign(where,{ goodsName:goodsName }) : where
+    dateAdd ? Object.assign(where,{ dateAdd:{ [Op.gt]:dateAdd } }) : where
+    dateUpdate ? Object.assign(where,{ dateUpdate:{ [Op.lt]:dateUpdate } }) : where
+    // ctx.helper.checkSeachData()
+     let options = {
+         where,
+         offset:(page -1) * pageSize,
+         limit:pageSize,
+     }
+     try{
+        var data = await service.admin.goods.fitchData(options);
+     }catch(e){
+         ctx.logger.info('查询失败',e)
+     }
+     ctx.body={
+         code:0,
+         msg:'success',
+         result:data,
+        //  count:count
+     }
+     
+  }
+ async update(){ 
+   let { app, ctx } = this;
+   let {
+    goodsId,
+    goodsName,
+    goodsImg,
+    minPrice,
+    orignPrice,
+    stores,
+    isSale,
+    isBest,
+    isNew,
+    isRecom,
+    categoryId,
+    goodsDesc,
+    saleNum,
+    dateAdd,
+    dateUpdate
+   } = ctx.request.body
+   let data = {
+    goodsName,
+    goodsImg,
+    minPrice,
+    orignPrice,
+    stores,
+    isSale,
+    isBest,
+    isNew,
+    isRecom,
+    categoryId,
+    goodsDesc,
+    saleNum,
+    dateAdd,
+    dateUpdate
+   }
+   let options = { 
+      where: { goodsId }
+   }
+   let obj = ctx.helper.checkSeachData(data)
+   await app.model.Goods.update(obj,options)
+   ctx.body = {
+     code:0,
+     msg:'success'
+   }
+  }
+ async delete(){ 
+   let { app, ctx } = this;
+   let { id } = ctx.request.body
+   let where = { id }
+   await app.model.Goods.destroy({ where })
+   ctx.body = {
+      code:0,
+      msg:'success'
+    }
+  }
+}
+module.exports = GoodsController

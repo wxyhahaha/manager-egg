@@ -1,0 +1,279 @@
+{
+  "privateKey": "H:\\我的毕设\\Hua-egg\\config\\config.default.js",
+  "keys": "H:\\我的毕设\\Hua-egg\\config\\config.default.js",
+  "middleware": "H:\\我的毕设\\Hua-egg\\config\\config.default.js",
+  "sequelize": {
+    "dialect": "H:\\我的毕设\\Hua-egg\\config\\config.default.js",
+    "storage": "H:\\我的毕设\\Hua-egg\\config\\config.default.js",
+    "database": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "host": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "port": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "username": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-sequelize\\config\\config.default.js",
+    "password": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-sequelize\\config\\config.default.js"
+  },
+  "adminUser": {
+    "username": "H:\\我的毕设\\Hua-egg\\config\\config.default.js",
+    "password": "H:\\我的毕设\\Hua-egg\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "H:\\我的毕设\\Hua-egg\\config\\config.default.js",
+      "ignoreJSON": "H:\\我的毕设\\Hua-egg\\config\\config.default.js"
+    },
+    "domainWhiteList": "H:\\我的毕设\\Hua-egg\\config\\config.default.js"
+  },
+  "cors": {
+    "enable": "H:\\我的毕设\\Hua-egg\\config\\config.default.js",
+    "credentials": "H:\\我的毕设\\Hua-egg\\config\\config.default.js",
+    "allowMethods": "H:\\我的毕设\\Hua-egg\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "H:\\我的毕设\\Hua-egg\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "name": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "version": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "description": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "private": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "await-stream-ready": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "captchapng": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "crypto": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "db-migrate": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-passport": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-router-plus": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "fs": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "install": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "jsonwebtoken": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "md5": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "path": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "sequelize": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "sequelize-cli": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "sqlite3": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "stream-wormhole": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "underscore": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "stop": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "dev": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "debug": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "test": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "cov": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "lint": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "ci": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "autod": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "migrate:new": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "migrate:up": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "migrate:down": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "url": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "license": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "strict": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "depth": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "env": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "level": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "logging": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "port": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "H:\\我的毕设\\Hua-egg\\node_modules\\egg\\config\\config.default.js"
+}

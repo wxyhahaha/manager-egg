@@ -1,0 +1,31 @@
+'use strict';
+
+const Controller = require('egg').Controller;
+class GoodsController extends Controller {
+  async insert() {
+    const { ctx, app } = this;
+    let data = ctx.request.body;
+    let goodsID = ctx.helper.getRandomId(6)
+    let result = Object.assign({ 'goodsID' : goodsID }, data)
+    try{
+      await app.model.Goods.create(result)
+      ctx.body = {
+        'data':{
+          code:0,
+          'result':'success',
+        }
+      };
+    }
+    catch(e){
+        ctx.logger.error('添加失败',e)
+        ctx.body = {
+            'data':{
+              code:400,
+              'result':'fail',
+            }
+          };
+    }
+  }
+}
+
+module.exports = GoodsController;

@@ -1,0 +1,20 @@
+const db = require('../db')
+module.exports = app => {
+    const { STRING, INTEGER } = app.Sequelize
+    const Ordergoods = db.defineModel(app, 'order_goods',{
+        // id		自增
+        // orderId		订单id
+        // goodsId		商品id
+        // goodsNum	商品数量
+        // goodsPrice	商品价格
+        // goodsName	商品价格
+        // goodsImg	商品图
+        goodsId:STRING,
+        orderId:STRING,
+        goodsNum:STRING,
+        goodsPrice:STRING,
+        goodsName:STRING,
+        goodsImg:STRING
+    })
+    return Ordergoods
+}

@@ -1,0 +1,54 @@
+'use strict';
+
+/**
+ * @param {Egg.Application} app - egg application
+ */
+module.exports = app => {
+  let managerRouter = app.router.namespace(
+    '/manager',
+    app.middleware.auth()
+  )
+  const { router, controller } = app;
+  let { goods, order, login, category, address, user, file, image, captcha} =  controller.admin
+
+  managerRouter.get('/index', controller.huafront.home.index);
+//开放路由
+  app.router.post('/manager/admin/getCaptcha', login.captcha)
+  // app.router.post('/manager/admin/getCaptcha', captcha.captcha)
+  app.router.post('/manager/upload', file.get);
+  app.router.post('/manager/admin/login', login.login);
+  //受控路由
+  //商品
+  managerRouter.post('/goods/insert', goods.insert);
+  managerRouter.post('/goods/list', goods.list);
+  managerRouter.post('/goods/set', goods.update);
+  managerRouter.post('/goods/del', goods.delete);
+  //商品分类
+  managerRouter.post('/category/insert', category.insert);
+  managerRouter.post('/category/list', category.list);
+  managerRouter.post('/category/set', category.update);
+  managerRouter.post('/category/del', category.delete);
+ //订单
+ managerRouter.post('/order/insert', order.insert);
+ managerRouter.post('/order/list', order.list);
+ managerRouter.post('/order/set', order.update);
+ managerRouter.post('/order/del', order.delete);
+ //地址
+ managerRouter.post('/address/insert', address.insert);
+ managerRouter.post('/address/list', address.list);
+ managerRouter.post('/address/set', address.update);
+ managerRouter.post('/address/del', address.delete);
+
+  //用户
+  managerRouter.post('/user/insert', user.insert);
+  managerRouter.post('/user/list', user.list);
+  managerRouter.post('/user/del', user.delete);
+
+  
+  //图片
+    //用户
+  managerRouter.post('/image/insert', image.insert);
+  managerRouter.post('/image/list', image.list);
+  managerRouter.post('/image/set', image.update);
+  managerRouter.post('/image/del', image.delete);
+};

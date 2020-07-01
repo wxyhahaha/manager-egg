@@ -1,0 +1,13 @@
+// This file is created by egg-ts-helper
+// Do not modify this file!!!!!!!!!
+
+import 'egg';
+import ExportAdminLogin = require('../../../app/service/admin/login');
+
+declare module 'egg' {
+  interface IService {
+    admin: {
+      login: ExportAdminLogin;
+    }
+  }
+}

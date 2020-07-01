@@ -1,0 +1,23 @@
+// This file is created by egg-ts-helper
+// Do not modify this file!!!!!!!!!
+
+import 'egg';
+import ExportAddress = require('../../../app/model/address');
+import ExportCategory = require('../../../app/model/category');
+import ExportGoods = require('../../../app/model/goods');
+import ExportImage = require('../../../app/model/image');
+import ExportOrder = require('../../../app/model/order');
+import ExportOrdergoods = require('../../../app/model/ordergoods');
+import ExportUser = require('../../../app/model/user');
+
+declare module 'sequelize' {
+  interface Sequelize {
+    Address: ReturnType<typeof ExportAddress>;
+    Category: ReturnType<typeof ExportCategory>;
+    Goods: ReturnType<typeof ExportGoods>;
+    Image: ReturnType<typeof ExportImage>;
+    Order: ReturnType<typeof ExportOrder>;
+    Ordergoods: ReturnType<typeof ExportOrdergoods>;
+    User: ReturnType<typeof ExportUser>;
+  }
+}

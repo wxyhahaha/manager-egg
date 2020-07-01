@@ -1,0 +1,36 @@
+const db = require("../db");
+
+module.exports = app => {
+  const { STRING, INTEGER, DATE, BOOLEAN } = app.Sequelize;
+
+  const Goods = db.defineModel(app, "goods", {
+    // goodsId		自增P商品id		必填	 	 
+    // goodsName 	商品名称			必填
+    // goodsImg    	封面链接			必填
+    // minPrice	最小价格			必填
+    // orignPrice	原始价格			必填
+    // stores		库存量			必填
+    // isSale		是否上架(0,1)		必填
+    // isBest		是否精品(0,1)		必填
+    // isNew		是否新品	(0,1)		必填
+    // isRecom		是否推荐(0,1)		必填
+    // categoryId	分类id			必填
+    // goodsDesc	商品描述
+    // saleNum		总销量
+    goodsID:{ type:INTEGER, unique:true, allowNull: true, defaultValue:0, autoIncrement:true },
+    goodsName:{ type:STRING },
+    goodsImg: { type:STRING },
+    minPrice: STRING,
+    orignPrice: STRING,
+    stores: STRING,
+    isSale:STRING,
+    isBest:STRING,
+    isNew:STRING,
+    isRecom:STRING,
+    categoryId:STRING,
+    goodsDesc:STRING,
+    saleNum:STRING
+  });
+
+  return Goods;
+};

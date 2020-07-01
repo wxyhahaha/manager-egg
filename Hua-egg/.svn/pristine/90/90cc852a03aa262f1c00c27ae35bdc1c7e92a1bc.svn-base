@@ -1,0 +1,8 @@
+module.exports = app => {
+  console.log('=====================',)
+    if (app.config.env === "local") {
+      app.beforeStart(function*() {
+        yield app.model.sync({ force: false });
+      });
+    }
+  };

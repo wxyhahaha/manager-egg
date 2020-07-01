@@ -1,0 +1,142 @@
+'use strict';
+
+const Controller = require('egg').Controller;
+
+class OrderController extends Controller {
+  async list() {
+    let { ctx, app, service } = this;
+    let { Op } = this.app.Sequelize
+    let { Sequelize } = app
+    let { 
+        orderNo,
+        userId, 
+        orderStatus,
+        userName,
+        userPhone,
+        dateAdd,
+        dateUpdate,
+        pageSize,
+        page
+       } = ctx.request.body
+    let where = { }
+    orderNo ? Object.assign(where,{ orderNo:orderNo }) : where
+    userId ? Object.assign(where,{ userId:userId }) : where
+    orderStatus ? Object.assign(where,{ orderStatus:orderStatus }) : where
+    userName ? Object.assign(where,{ userName:userName }) : where
+    userPhone ? Object.assign(where,{ userPhone:userPhone }) : where
+    dateAdd ? Object.assign(where,{ dateAdd:{ [Op.gt]:dateAdd } }) : where
+    dateUpdate ? Object.assign(where,{ dateUpdate:{ [Op.lt]:dateUpdate } }) : where
+
+
+   // ctx.helper.checkSeachData()
+
+  //批量查询 计算订单总额
+  //   let goodsInfo = [
+  //     {goodsID:777187,goodsNum:3,goodsMoney:39},
+  //     {goodsID:923373,goodsNum:10,goodsMoney:5550},
+  //   ]
+  // let goodsIdArr = []
+  // let countTotalMoney = 0;
+  // let turlyTotalMoney = 0;
+  //   for(let k of goodsInfo){
+  //     goodsIdArr.push(k.goodsID)     
+  //     countTotalMoney += parseInt(k.goodsMoney) 
+  //   }
+  //   console.log(countTotalMoney)
+  //   let where = {
+  //     goodsID:{ [Op.in]:goodsIdArr}
+  //   }
+    let options = {
+        where,
+        offset:(page -1) * pageSize,
+        limit:pageSize,
+    }
+    try{
+       var data = await service.admin.order.fitchData(options);
+        // for(let k of data.data){
+        //   for(let i of goodsInfo){
+        //     if(k.goodsID == i.goodsID){
+        //       turlyTotalMoney += parseInt(k.minPrice * i.goodsNum)
+              
+        //     }
+            
+        //   }         
+        // }
+        //订单
+        // let flag = true
+        // countTotalMoney === turlyTotalMoney 
+        // ? flag = true 
+        // : flag = false
+        // if(!flag) return ctx.body ={ code:300,msg:'非法篡改',data}
+       ctx.body={
+        code:0,
+        msg:'success',
+        result:data ,
+       //count:count
+    }
+    }catch(e){
+        ctx.logger.info('查询失败',e)
+        ctx.body={
+          code:400,
+          msg:'fail',
+         //count:count
+      }
+    }
+
+  }
+  async insert() {
+    const { ctx, app } = this;
+    let data = ctx.request.body;
+    let orderNo = ctx.helper.getOrderNum()
+    let result = Object.assign({ 'orderNo' : orderNo }, data)
+    try{
+      await app.model.Order.create(result)
+      ctx.body = {
+        'data':{
+          code:0,
+          'result':'success',
+        }
+      };
+    }
+    catch(e){
+        ctx.logger.error('添加失败',e)
+        ctx.body = {
+            'data':{
+              code:400,
+              'result':'fail',
+            }
+          };
+    }
+  }
+  async update() {
+    let { app, ctx } = this;
+    let {
+        orderNo,
+        orderStatus
+    } = ctx.request.body
+    let data = {
+      orderStatus
+    }
+    let options = { 
+       where: { orderNo }
+    }
+    let obj = ctx.helper.checkSeachData(data)
+    await app.model.Order.update(obj,options)
+    ctx.body = {
+      code:0,
+      msg:'success'
+    }
+  }
+  async delete() {
+    let { app, ctx } = this;
+    let { id } = ctx.request.body
+    let where = { id }
+    await app.model.Order.destroy({ where })
+    ctx.body = {
+       code:0,
+       msg:'success'
+     }
+  }
+}
+
+module.exports = OrderController;

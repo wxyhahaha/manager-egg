@@ -1,0 +1,101 @@
+'use strict';
+const Controller = require('egg').Controller
+class UserController extends Controller{
+    async insert() {
+        const { ctx, app } = this;
+        let { username, password, imgcode } =ctx.request.body
+        console.log('imgcodimgcodeimgcodee',username, password, imgcode)
+        let session_imgcode = ctx.session.captcha
+        ctx.session.captcha = '';
+        console.log(imgcode,session_imgcode)
+        console.log(typeof imgcode, typeof session_imgcode)
+        if(!imgcode || imgcode !==session_imgcode){
+          return ctx.body = { code:300,msg:'imgcode fail' }
+        }
+        let userId = ctx.helper.getRandomId(6)
+        let privateKey = app.config.privateKey
+        password = ctx.helper.md5Password(password,privateKey)
+        let result = Object.assign({  userId, 'roleId':'1',password,username})
+        try{
+          await app.model.User.create(result)
+          ctx.body = {
+              code:0,
+              'result':'success',
+          };
+        }
+        catch(e){
+            ctx.logger.error('添加失败',e)
+            ctx.body = {
+                  code:400,
+                  'result':'fail',
+              };
+        }
+      }
+    async updatePwd() {
+        let { app, ctx } = this;
+        let {
+            userId,
+            oldPassword,
+            newPassword
+        } = ctx.request.body
+        let options = { 
+           where: { userId }
+        }
+        let privateKey = this.app.config.privateKey
+        oldPassword =await ctx.helper.md5Password(oldPassword,privateKey)
+        console.log('md5Passwordmd5Password',oldPassword)
+        let user = await app.model.User.findOne(options)
+        let flag = true
+        if(user.password === oldPassword ){
+            newPassword =await ctx.helper.md5Password(newPassword,privateKey)
+            await app.model.User.update({password:newPassword},options)
+        }
+        else{
+            flag = false
+        }         
+        return flag 
+        ? ctx.body= { code:0,msg:'success'}
+        : ctx.body= { code:400,msg:'原密码不正确'}
+      }
+    async updateInfo(){
+        let { app, ctx } = this
+        let{
+            userId,
+            email,
+            name,
+            sex,
+            avatar,
+            mobilePhone,
+            telePhone,
+            info,
+            company,
+            city,
+            province,
+        } = ctx.request.body
+        let options = {
+            where:{ userId }
+        }
+        let data = {             
+            email,
+            name,
+            sex,
+            avatar,
+            mobilePhone,
+            telePhone,
+            info,
+            company,
+            city,
+            province, 
+        }
+        data = await ctx.helper.checkSeachData(data)
+        try{
+            await app.model.User.update(data,options)
+            ctx.body = { code:0, msg:'success'}
+        }catch(e){
+            ctx.logger.error('更新失败',e)
+            ctx.body = { code:0, msg:'fail' }
+        }
+        
+    } 
+}
+module.exports = UserController

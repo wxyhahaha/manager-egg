@@ -1,0 +1,598 @@
+2019-02-25 10:16:04,964 INFO 7948 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-25 10:16:05,008 INFO 7948 [egg-multipart] stream mode enable
+2019-02-25 10:16:05,897 INFO 7948 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-25 10:16:05,908 INFO 7948 [egg-security] use csrf middleware
+2019-02-25 10:16:05,925 INFO 7948 [egg-security] use methodnoallow middleware
+2019-02-25 10:16:05,926 INFO 7948 [egg-security] use noopen middleware
+2019-02-25 10:16:05,928 INFO 7948 [egg-security] use nosniff middleware
+2019-02-25 10:16:05,929 INFO 7948 [egg-security] use xssProtection middleware
+2019-02-25 10:16:05,930 INFO 7948 [egg-security] use xframe middleware
+2019-02-25 10:16:05,930 INFO 7948 [egg-security] use dta middleware
+2019-02-25 10:16:05,930 INFO 7948 [egg-security] compose 7 middlewares into one security middleware
+2019-02-25 10:16:05,948 INFO 7948 [egg:core] dump config after load, 13ms
+2019-02-25 10:16:05,970 INFO 7948 [egg-watcher:application] watcher start success
+2019-02-25 10:16:05,991 INFO 7948 [egg:core] dump config after ready, 18ms
+2019-02-25 10:30:45,567 INFO 17024 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-25 10:30:45,837 INFO 17024 [egg-multipart] stream mode enable
+2019-02-25 10:30:47,130 INFO 17024 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-25 10:30:47,226 INFO 17024 [egg-security] use csrf middleware
+2019-02-25 10:30:47,244 INFO 17024 [egg-security] use methodnoallow middleware
+2019-02-25 10:30:47,245 INFO 17024 [egg-security] use noopen middleware
+2019-02-25 10:30:47,272 INFO 17024 [egg-security] use nosniff middleware
+2019-02-25 10:30:47,273 INFO 17024 [egg-security] use xssProtection middleware
+2019-02-25 10:30:47,275 INFO 17024 [egg-security] use xframe middleware
+2019-02-25 10:30:47,277 INFO 17024 [egg-security] use dta middleware
+2019-02-25 10:30:47,277 INFO 17024 [egg-security] compose 7 middlewares into one security middleware
+2019-02-25 10:30:47,351 INFO 17024 [egg:core] dump config after load, 40ms
+2019-02-25 10:30:47,492 INFO 17024 [egg-watcher:application] watcher start success
+2019-02-25 10:30:47,543 INFO 17024 [egg:core] dump config after ready, 42ms
+2019-02-25 11:07:08,162 INFO 15988 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-25 11:07:08,320 INFO 15988 [egg-multipart] stream mode enable
+2019-02-25 11:07:09,333 INFO 15988 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-25 11:07:09,379 INFO 15988 [egg-security] use csrf middleware
+2019-02-25 11:07:09,389 INFO 15988 [egg-security] use methodnoallow middleware
+2019-02-25 11:07:09,391 INFO 15988 [egg-security] use noopen middleware
+2019-02-25 11:07:09,394 INFO 15988 [egg-security] use nosniff middleware
+2019-02-25 11:07:09,396 INFO 15988 [egg-security] use xssProtection middleware
+2019-02-25 11:07:09,397 INFO 15988 [egg-security] use xframe middleware
+2019-02-25 11:07:09,398 INFO 15988 [egg-security] use dta middleware
+2019-02-25 11:07:09,398 INFO 15988 [egg-security] compose 7 middlewares into one security middleware
+2019-02-25 11:07:09,446 INFO 15988 [egg:core] dump config after load, 38ms
+2019-02-25 11:07:09,500 INFO 15988 [egg-watcher:application] watcher start success
+2019-02-25 11:07:09,513 INFO 15988 [egg:core] dump config after ready, 11ms
+2019-02-25 11:07:11,767 INFO 8608 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-25 11:07:11,827 INFO 8608 [egg-multipart] stream mode enable
+2019-02-25 11:07:11,986 INFO 8608 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-25 11:07:11,989 INFO 8608 [egg-security] use csrf middleware
+2019-02-25 11:07:11,991 INFO 8608 [egg-security] use methodnoallow middleware
+2019-02-25 11:07:11,991 INFO 8608 [egg-security] use noopen middleware
+2019-02-25 11:07:11,995 INFO 8608 [egg-security] use nosniff middleware
+2019-02-25 11:07:11,996 INFO 8608 [egg-security] use xssProtection middleware
+2019-02-25 11:07:11,997 INFO 8608 [egg-security] use xframe middleware
+2019-02-25 11:07:11,997 INFO 8608 [egg-security] use dta middleware
+2019-02-25 11:07:11,997 INFO 8608 [egg-security] compose 7 middlewares into one security middleware
+2019-02-25 11:07:12,035 INFO 8608 [egg:core] dump config after load, 32ms
+2019-02-25 11:07:14,303 INFO 8608 [egg-watcher:application] watcher start success
+2019-02-25 11:07:14,332 INFO 8608 [egg:core] dump config after ready, 26ms
+2019-02-25 12:24:45,493 WARN 8608 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-25 12:50:29,763 WARN 8608 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 15:36:47,728 INFO 25932 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:36:47,768 INFO 25932 [egg-multipart] stream mode enable
+2019-02-26 15:36:56,390 INFO 25932 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 15:36:56,538 INFO 25932 [egg-security] use methodnoallow middleware
+2019-02-26 15:36:56,557 INFO 25932 [egg-security] use noopen middleware
+2019-02-26 15:36:56,732 INFO 25932 [egg-security] use nosniff middleware
+2019-02-26 15:36:56,732 INFO 25932 [egg-security] use xssProtection middleware
+2019-02-26 15:36:56,747 INFO 25932 [egg-security] use xframe middleware
+2019-02-26 15:36:56,747 INFO 25932 [egg-security] use dta middleware
+2019-02-26 15:36:56,747 INFO 25932 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 15:36:56,760 INFO 25932 [egg:core] dump config after load, 9ms
+2019-02-26 15:36:56,788 INFO 25932 [egg-watcher:application] watcher start success
+2019-02-26 15:36:56,817 INFO 25932 [egg:core] dump config after ready, 12ms
+2019-02-26 15:40:36,817 ERROR 25932 nodejs.ServerNoResponseError: server 127.0.0.1:6594 no response in 40001ms, maybe the socket is end on the other side. (address: 127.0.0.1:6594)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (E:\我的毕设\Hua-egg\node_modules\_tcp-base@3.1.0@tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ServerNoResponseError"
+pid: 25932
+hostname: DESKTOP-SS767QL
+
+2019-02-26 15:48:33,341 WARN 25932 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-26 15:49:24,011 INFO 2768 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:49:24,161 INFO 2768 [egg-multipart] stream mode enable
+2019-02-26 15:49:25,184 INFO 2768 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 15:49:25,205 INFO 2768 [egg-security] use methodnoallow middleware
+2019-02-26 15:49:25,206 INFO 2768 [egg-security] use noopen middleware
+2019-02-26 15:49:25,209 INFO 2768 [egg-security] use nosniff middleware
+2019-02-26 15:49:25,210 INFO 2768 [egg-security] use xssProtection middleware
+2019-02-26 15:49:25,211 INFO 2768 [egg-security] use xframe middleware
+2019-02-26 15:49:25,212 INFO 2768 [egg-security] use dta middleware
+2019-02-26 15:49:25,212 INFO 2768 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 15:49:25,277 INFO 2768 [egg:core] dump config after load, 59ms
+2019-02-26 15:49:25,312 INFO 2768 [egg-watcher:application] watcher start success
+2019-02-26 15:49:25,327 INFO 2768 [egg:core] dump config after ready, 13ms
+2019-02-26 15:49:27,084 INFO 19924 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:49:27,142 INFO 19924 [egg-multipart] stream mode enable
+2019-02-26 15:49:27,246 INFO 19924 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 15:49:27,249 INFO 19924 [egg-security] use methodnoallow middleware
+2019-02-26 15:49:27,250 INFO 19924 [egg-security] use noopen middleware
+2019-02-26 15:49:27,251 INFO 19924 [egg-security] use nosniff middleware
+2019-02-26 15:49:27,252 INFO 19924 [egg-security] use xssProtection middleware
+2019-02-26 15:49:27,252 INFO 19924 [egg-security] use xframe middleware
+2019-02-26 15:49:27,253 INFO 19924 [egg-security] use dta middleware
+2019-02-26 15:49:27,253 INFO 19924 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 15:49:27,268 INFO 19924 [egg:core] dump config after load, 11ms
+2019-02-26 15:49:27,290 INFO 19924 [egg-watcher:application] watcher start success
+2019-02-26 15:49:27,787 INFO 19924 [egg:core] dump config after ready, 495ms
+2019-02-26 15:55:57,650 INFO 32520 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:55:57,754 INFO 32520 [egg-multipart] stream mode enable
+2019-02-26 15:55:58,536 INFO 32520 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 15:55:58,540 INFO 32520 [egg-security] use methodnoallow middleware
+2019-02-26 15:55:58,541 INFO 32520 [egg-security] use noopen middleware
+2019-02-26 15:55:58,543 INFO 32520 [egg-security] use nosniff middleware
+2019-02-26 15:55:58,544 INFO 32520 [egg-security] use xssProtection middleware
+2019-02-26 15:55:58,545 INFO 32520 [egg-security] use xframe middleware
+2019-02-26 15:55:58,545 INFO 32520 [egg-security] use dta middleware
+2019-02-26 15:55:58,545 INFO 32520 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 15:55:58,564 INFO 32520 [egg:core] dump config after load, 14ms
+2019-02-26 15:55:58,604 INFO 32520 [egg-watcher:application] watcher start success
+2019-02-26 15:55:58,617 INFO 32520 [egg:core] dump config after ready, 11ms
+2019-02-26 15:56:30,591 INFO 8900 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:56:30,643 INFO 8900 [egg-multipart] stream mode enable
+2019-02-26 15:56:30,753 INFO 8900 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 15:56:30,757 INFO 8900 [egg-security] use methodnoallow middleware
+2019-02-26 15:56:30,758 INFO 8900 [egg-security] use noopen middleware
+2019-02-26 15:56:30,759 INFO 8900 [egg-security] use nosniff middleware
+2019-02-26 15:56:30,760 INFO 8900 [egg-security] use xssProtection middleware
+2019-02-26 15:56:30,760 INFO 8900 [egg-security] use xframe middleware
+2019-02-26 15:56:30,761 INFO 8900 [egg-security] use dta middleware
+2019-02-26 15:56:30,761 INFO 8900 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 15:56:30,778 INFO 8900 [egg:core] dump config after load, 13ms
+2019-02-26 15:56:30,818 INFO 8900 [egg-watcher:application] watcher start success
+2019-02-26 15:56:30,836 INFO 8900 [egg:core] dump config after ready, 16ms
+2019-02-26 15:56:42,621 INFO 27780 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 15:56:42,660 INFO 27780 [egg-multipart] stream mode enable
+2019-02-26 15:56:42,759 INFO 27780 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 15:56:42,782 INFO 27780 [egg-security] use csrf middleware
+2019-02-26 15:56:42,784 INFO 27780 [egg-security] use methodnoallow middleware
+2019-02-26 15:56:42,785 INFO 27780 [egg-security] use noopen middleware
+2019-02-26 15:56:42,786 INFO 27780 [egg-security] use nosniff middleware
+2019-02-26 15:56:42,787 INFO 27780 [egg-security] use xssProtection middleware
+2019-02-26 15:56:42,787 INFO 27780 [egg-security] use xframe middleware
+2019-02-26 15:56:42,788 INFO 27780 [egg-security] use dta middleware
+2019-02-26 15:56:42,788 INFO 27780 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 15:56:42,802 INFO 27780 [egg:core] dump config after load, 9ms
+2019-02-26 15:56:42,823 INFO 27780 [egg-watcher:application] watcher start success
+2019-02-26 15:56:42,854 INFO 27780 [egg:core] dump config after ready, 29ms
+2019-02-26 16:09:05,875 INFO 8900 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 16:09:06,056 INFO 8900 [egg-multipart] stream mode enable
+2019-02-26 16:09:07,383 INFO 8900 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 16:09:07,478 INFO 8900 [egg-security] use methodnoallow middleware
+2019-02-26 16:09:07,480 INFO 8900 [egg-security] use noopen middleware
+2019-02-26 16:09:07,485 INFO 8900 [egg-security] use nosniff middleware
+2019-02-26 16:09:07,487 INFO 8900 [egg-security] use xssProtection middleware
+2019-02-26 16:09:07,490 INFO 8900 [egg-security] use xframe middleware
+2019-02-26 16:09:07,492 INFO 8900 [egg-security] use dta middleware
+2019-02-26 16:09:07,492 INFO 8900 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 16:09:07,602 INFO 8900 [egg:core] dump config after load, 99ms
+2019-02-26 16:09:07,775 INFO 8900 [egg-watcher:application] watcher start success
+2019-02-26 16:09:07,785 INFO 8900 [egg:core] dump config after ready, 10ms
+2019-02-26 16:09:10,121 INFO 18440 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 16:09:10,190 INFO 18440 [egg-multipart] stream mode enable
+2019-02-26 16:09:10,346 INFO 18440 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 16:09:10,351 INFO 18440 [egg-security] use methodnoallow middleware
+2019-02-26 16:09:10,352 INFO 18440 [egg-security] use noopen middleware
+2019-02-26 16:09:10,353 INFO 18440 [egg-security] use nosniff middleware
+2019-02-26 16:09:10,354 INFO 18440 [egg-security] use xssProtection middleware
+2019-02-26 16:09:10,360 INFO 18440 [egg-security] use xframe middleware
+2019-02-26 16:09:10,361 INFO 18440 [egg-security] use dta middleware
+2019-02-26 16:09:10,361 INFO 18440 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 16:09:10,382 INFO 18440 [egg:core] dump config after load, 17ms
+2019-02-26 16:09:10,414 INFO 18440 [egg-watcher:application] watcher start success
+2019-02-26 16:09:10,432 INFO 18440 [egg:core] dump config after ready, 16ms
+2019-02-26 16:10:10,931 INFO 30820 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 16:10:11,654 INFO 30820 [egg-multipart] stream mode enable
+2019-02-26 16:10:19,157 INFO 30820 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 16:10:19,186 INFO 30820 [egg-security] use methodnoallow middleware
+2019-02-26 16:10:19,187 INFO 30820 [egg-security] use noopen middleware
+2019-02-26 16:10:19,191 INFO 30820 [egg-security] use nosniff middleware
+2019-02-26 16:10:19,192 INFO 30820 [egg-security] use xssProtection middleware
+2019-02-26 16:10:19,192 INFO 30820 [egg-security] use xframe middleware
+2019-02-26 16:10:19,193 INFO 30820 [egg-security] use dta middleware
+2019-02-26 16:10:19,193 INFO 30820 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 16:10:19,204 INFO 30820 [egg:core] dump config after load, 6ms
+2019-02-26 16:10:19,224 INFO 30820 [egg-watcher:application] watcher start success
+2019-02-26 16:10:19,385 INFO 30820 [egg:core] dump config after ready, 161ms
+2019-02-26 16:39:11,867 INFO 25032 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 16:39:12,046 INFO 25032 [egg-multipart] stream mode enable
+2019-02-26 16:39:13,846 INFO 25032 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 16:39:13,894 INFO 25032 [egg-security] use methodnoallow middleware
+2019-02-26 16:39:13,896 INFO 25032 [egg-security] use noopen middleware
+2019-02-26 16:39:13,900 INFO 25032 [egg-security] use nosniff middleware
+2019-02-26 16:39:13,902 INFO 25032 [egg-security] use xssProtection middleware
+2019-02-26 16:39:13,904 INFO 25032 [egg-security] use xframe middleware
+2019-02-26 16:39:13,906 INFO 25032 [egg-security] use dta middleware
+2019-02-26 16:39:13,906 INFO 25032 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 16:39:13,929 INFO 25032 [egg:core] dump config after load, 16ms
+2019-02-26 16:39:14,466 INFO 25032 [egg-watcher:application] watcher start success
+2019-02-26 16:39:14,485 INFO 25032 [egg:core] dump config after ready, 16ms
+2019-02-26 17:25:21,064 INFO 10708 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 17:25:21,112 INFO 10708 [egg-multipart] stream mode enable
+2019-02-26 17:25:21,238 INFO 10708 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-26 17:25:21,242 INFO 10708 [egg-security] use methodnoallow middleware
+2019-02-26 17:25:21,242 INFO 10708 [egg-security] use noopen middleware
+2019-02-26 17:25:21,243 INFO 10708 [egg-security] use nosniff middleware
+2019-02-26 17:25:21,244 INFO 10708 [egg-security] use xssProtection middleware
+2019-02-26 17:25:21,245 INFO 10708 [egg-security] use xframe middleware
+2019-02-26 17:25:21,245 INFO 10708 [egg-security] use dta middleware
+2019-02-26 17:25:21,245 INFO 10708 [egg-security] compose 6 middlewares into one security middleware
+2019-02-26 17:25:21,260 INFO 10708 [egg:core] dump config after load, 7ms
+2019-02-26 17:25:21,289 INFO 10708 [egg-watcher:application] watcher start success
+2019-02-26 17:25:21,303 INFO 10708 [egg:core] dump config after ready, 10ms
+2019-02-27 09:17:01,914 INFO 36236 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:17:01,954 INFO 36236 [egg-multipart] stream mode enable
+2019-02-27 09:17:06,936 INFO 36236 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:17:06,945 INFO 36236 [egg-security] use methodnoallow middleware
+2019-02-27 09:17:06,945 INFO 36236 [egg-security] use noopen middleware
+2019-02-27 09:17:06,945 INFO 36236 [egg-security] use nosniff middleware
+2019-02-27 09:17:06,945 INFO 36236 [egg-security] use xssProtection middleware
+2019-02-27 09:17:06,945 INFO 36236 [egg-security] use xframe middleware
+2019-02-27 09:17:06,996 INFO 36236 [egg-security] use dta middleware
+2019-02-27 09:17:06,996 INFO 36236 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:17:07,455 INFO 36236 [egg:core] dump config after load, 459ms
+2019-02-27 09:17:07,485 INFO 36236 [egg-watcher:application] watcher start success
+2019-02-27 09:17:07,625 INFO 36236 [egg:core] dump config after ready, 140ms
+2019-02-27 09:27:08,908 INFO 25528 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:27:09,056 INFO 25528 [egg-multipart] stream mode enable
+2019-02-27 09:27:10,432 INFO 25528 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:27:10,432 INFO 25528 [egg-security] use methodnoallow middleware
+2019-02-27 09:27:10,432 INFO 25528 [egg-security] use noopen middleware
+2019-02-27 09:27:10,432 INFO 25528 [egg-security] use nosniff middleware
+2019-02-27 09:27:10,442 INFO 25528 [egg-security] use xssProtection middleware
+2019-02-27 09:27:10,442 INFO 25528 [egg-security] use xframe middleware
+2019-02-27 09:27:10,452 INFO 25528 [egg-security] use dta middleware
+2019-02-27 09:27:10,452 INFO 25528 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:27:10,482 INFO 25528 [egg:core] dump config after load, 30ms
+2019-02-27 09:27:10,512 INFO 25528 [egg-watcher:application] watcher start success
+2019-02-27 09:27:10,552 INFO 25528 [egg:core] dump config after ready, 40ms
+2019-02-27 09:30:00,393 INFO 34988 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:30:00,429 INFO 34988 [egg-multipart] stream mode enable
+2019-02-27 09:30:01,987 INFO 34988 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:30:01,991 INFO 34988 [egg-security] use methodnoallow middleware
+2019-02-27 09:30:01,992 INFO 34988 [egg-security] use noopen middleware
+2019-02-27 09:30:01,994 INFO 34988 [egg-security] use nosniff middleware
+2019-02-27 09:30:01,995 INFO 34988 [egg-security] use xssProtection middleware
+2019-02-27 09:30:01,996 INFO 34988 [egg-security] use xframe middleware
+2019-02-27 09:30:01,997 INFO 34988 [egg-security] use dta middleware
+2019-02-27 09:30:01,997 INFO 34988 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:30:02,011 INFO 34988 [egg:core] dump config after load, 9ms
+2019-02-27 09:30:02,045 INFO 34988 [egg-watcher:application] watcher start success
+2019-02-27 09:30:02,081 INFO 34988 [egg:core] dump config after ready, 33ms
+2019-02-27 09:32:07,550 INFO 7356 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:32:07,591 INFO 7356 [egg-multipart] stream mode enable
+2019-02-27 09:32:07,661 INFO 7356 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:32:07,661 INFO 7356 [egg-security] use methodnoallow middleware
+2019-02-27 09:32:07,661 INFO 7356 [egg-security] use noopen middleware
+2019-02-27 09:32:07,661 INFO 7356 [egg-security] use nosniff middleware
+2019-02-27 09:32:07,661 INFO 7356 [egg-security] use xssProtection middleware
+2019-02-27 09:32:07,661 INFO 7356 [egg-security] use xframe middleware
+2019-02-27 09:32:07,661 INFO 7356 [egg-security] use dta middleware
+2019-02-27 09:32:07,661 INFO 7356 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:32:07,681 INFO 7356 [egg:core] dump config after load, 10ms
+2019-02-27 09:32:07,691 INFO 7356 [egg-watcher:application] watcher start success
+2019-02-27 09:32:07,711 INFO 7356 [egg:core] dump config after ready, 10ms
+2019-02-27 09:34:08,029 INFO 1828 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:34:08,069 INFO 1828 [egg-multipart] stream mode enable
+2019-02-27 09:34:08,179 INFO 1828 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:34:08,179 INFO 1828 [egg-security] use methodnoallow middleware
+2019-02-27 09:34:08,179 INFO 1828 [egg-security] use noopen middleware
+2019-02-27 09:34:08,179 INFO 1828 [egg-security] use nosniff middleware
+2019-02-27 09:34:08,179 INFO 1828 [egg-security] use xssProtection middleware
+2019-02-27 09:34:08,179 INFO 1828 [egg-security] use xframe middleware
+2019-02-27 09:34:08,179 INFO 1828 [egg-security] use dta middleware
+2019-02-27 09:34:08,179 INFO 1828 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:34:08,199 INFO 1828 [egg:core] dump config after load, 10ms
+2019-02-27 09:34:08,219 INFO 1828 [egg-watcher:application] watcher start success
+2019-02-27 09:34:08,229 INFO 1828 [egg:core] dump config after ready, 10ms
+2019-02-27 09:34:09,556 INFO 1172 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:34:09,596 INFO 1172 [egg-multipart] stream mode enable
+2019-02-27 09:34:09,676 INFO 1172 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:34:09,676 INFO 1172 [egg-security] use methodnoallow middleware
+2019-02-27 09:34:09,676 INFO 1172 [egg-security] use noopen middleware
+2019-02-27 09:34:09,676 INFO 1172 [egg-security] use nosniff middleware
+2019-02-27 09:34:09,676 INFO 1172 [egg-security] use xssProtection middleware
+2019-02-27 09:34:09,686 INFO 1172 [egg-security] use xframe middleware
+2019-02-27 09:34:09,686 INFO 1172 [egg-security] use dta middleware
+2019-02-27 09:34:09,686 INFO 1172 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:34:09,726 INFO 1172 [egg:core] dump config after load, 40ms
+2019-02-27 09:34:09,736 INFO 1172 [egg-watcher:application] watcher start success
+2019-02-27 09:34:09,766 INFO 1172 [egg:core] dump config after ready, 20ms
+2019-02-27 09:35:19,560 INFO 40156 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:35:19,590 INFO 40156 [egg-multipart] stream mode enable
+2019-02-27 09:35:19,650 INFO 40156 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:35:19,660 INFO 40156 [egg-security] use methodnoallow middleware
+2019-02-27 09:35:19,660 INFO 40156 [egg-security] use noopen middleware
+2019-02-27 09:35:19,660 INFO 40156 [egg-security] use nosniff middleware
+2019-02-27 09:35:19,660 INFO 40156 [egg-security] use xssProtection middleware
+2019-02-27 09:35:19,660 INFO 40156 [egg-security] use xframe middleware
+2019-02-27 09:35:19,660 INFO 40156 [egg-security] use dta middleware
+2019-02-27 09:35:19,660 INFO 40156 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:35:19,670 INFO 40156 [egg:core] dump config after load, 10ms
+2019-02-27 09:35:19,700 INFO 40156 [egg-watcher:application] watcher start success
+2019-02-27 09:35:19,710 INFO 40156 [egg:core] dump config after ready, 10ms
+2019-02-27 09:36:32,797 INFO 31456 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:36:32,837 INFO 31456 [egg-multipart] stream mode enable
+2019-02-27 09:36:32,907 INFO 31456 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:36:32,917 INFO 31456 [egg-security] use methodnoallow middleware
+2019-02-27 09:36:32,917 INFO 31456 [egg-security] use noopen middleware
+2019-02-27 09:36:32,917 INFO 31456 [egg-security] use nosniff middleware
+2019-02-27 09:36:32,917 INFO 31456 [egg-security] use xssProtection middleware
+2019-02-27 09:36:32,917 INFO 31456 [egg-security] use xframe middleware
+2019-02-27 09:36:32,917 INFO 31456 [egg-security] use dta middleware
+2019-02-27 09:36:32,917 INFO 31456 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:36:32,927 INFO 31456 [egg:core] dump config after load, 10ms
+2019-02-27 09:36:32,957 INFO 31456 [egg-watcher:application] watcher start success
+2019-02-27 09:36:32,967 INFO 31456 [egg:core] dump config after ready, 10ms
+2019-02-27 09:36:59,804 INFO 9828 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:36:59,846 INFO 9828 [egg-multipart] stream mode enable
+2019-02-27 09:36:59,908 INFO 9828 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:36:59,908 INFO 9828 [egg-security] use methodnoallow middleware
+2019-02-27 09:36:59,908 INFO 9828 [egg-security] use noopen middleware
+2019-02-27 09:36:59,908 INFO 9828 [egg-security] use nosniff middleware
+2019-02-27 09:36:59,918 INFO 9828 [egg-security] use xssProtection middleware
+2019-02-27 09:36:59,918 INFO 9828 [egg-security] use xframe middleware
+2019-02-27 09:36:59,918 INFO 9828 [egg-security] use dta middleware
+2019-02-27 09:36:59,918 INFO 9828 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:36:59,928 INFO 9828 [egg:core] dump config after load, 10ms
+2019-02-27 09:36:59,938 INFO 9828 [egg-watcher:application] watcher start success
+2019-02-27 09:36:59,958 INFO 9828 [egg:core] dump config after ready, 10ms
+2019-02-27 09:37:12,266 INFO 35168 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:37:12,296 INFO 35168 [egg-multipart] stream mode enable
+2019-02-27 09:37:12,376 INFO 35168 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:37:12,376 INFO 35168 [egg-security] use methodnoallow middleware
+2019-02-27 09:37:12,376 INFO 35168 [egg-security] use noopen middleware
+2019-02-27 09:37:12,376 INFO 35168 [egg-security] use nosniff middleware
+2019-02-27 09:37:12,376 INFO 35168 [egg-security] use xssProtection middleware
+2019-02-27 09:37:12,376 INFO 35168 [egg-security] use xframe middleware
+2019-02-27 09:37:12,376 INFO 35168 [egg-security] use dta middleware
+2019-02-27 09:37:12,376 INFO 35168 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:37:12,386 INFO 35168 [egg:core] dump config after load, 0ms
+2019-02-27 09:37:12,419 INFO 35168 [egg-watcher:application] watcher start success
+2019-02-27 09:37:12,431 INFO 35168 [egg:core] dump config after ready, 10ms
+2019-02-27 09:46:20,086 INFO 3020 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 09:46:20,125 INFO 3020 [egg-multipart] stream mode enable
+2019-02-27 09:46:20,466 INFO 3020 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 09:46:20,476 INFO 3020 [egg-security] use methodnoallow middleware
+2019-02-27 09:46:20,476 INFO 3020 [egg-security] use noopen middleware
+2019-02-27 09:46:20,476 INFO 3020 [egg-security] use nosniff middleware
+2019-02-27 09:46:20,476 INFO 3020 [egg-security] use xssProtection middleware
+2019-02-27 09:46:20,476 INFO 3020 [egg-security] use xframe middleware
+2019-02-27 09:46:20,476 INFO 3020 [egg-security] use dta middleware
+2019-02-27 09:46:20,476 INFO 3020 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 09:46:20,486 INFO 3020 [egg:core] dump config after load, 10ms
+2019-02-27 09:46:20,515 INFO 3020 [egg-watcher:application] watcher start success
+2019-02-27 09:46:20,525 INFO 3020 [egg:core] dump config after ready, 10ms
+2019-02-27 10:00:09,076 INFO 8452 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 10:00:09,116 INFO 8452 [egg-multipart] stream mode enable
+2019-02-27 10:00:09,537 INFO 8452 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 10:00:09,537 INFO 8452 [egg-security] use methodnoallow middleware
+2019-02-27 10:00:09,537 INFO 8452 [egg-security] use noopen middleware
+2019-02-27 10:00:09,546 INFO 8452 [egg-security] use nosniff middleware
+2019-02-27 10:00:09,546 INFO 8452 [egg-security] use xssProtection middleware
+2019-02-27 10:00:09,546 INFO 8452 [egg-security] use xframe middleware
+2019-02-27 10:00:09,546 INFO 8452 [egg-security] use dta middleware
+2019-02-27 10:00:09,546 INFO 8452 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 10:00:09,556 INFO 8452 [egg:core] dump config after load, 10ms
+2019-02-27 10:00:09,576 INFO 8452 [egg-watcher:application] watcher start success
+2019-02-27 10:00:09,596 INFO 8452 [egg:core] dump config after ready, 10ms
+2019-02-27 10:12:39,271 INFO 8396 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 10:12:39,321 INFO 8396 [egg-multipart] stream mode enable
+2019-02-27 10:12:39,901 INFO 8396 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 10:12:39,921 INFO 8396 [egg-security] use methodnoallow middleware
+2019-02-27 10:12:39,931 INFO 8396 [egg-security] use noopen middleware
+2019-02-27 10:12:39,931 INFO 8396 [egg-security] use nosniff middleware
+2019-02-27 10:12:39,941 INFO 8396 [egg-security] use xssProtection middleware
+2019-02-27 10:12:39,941 INFO 8396 [egg-security] use xframe middleware
+2019-02-27 10:12:39,951 INFO 8396 [egg-security] use dta middleware
+2019-02-27 10:12:39,951 INFO 8396 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 10:12:39,961 INFO 8396 [egg:core] dump config after load, 10ms
+2019-02-27 10:12:39,981 INFO 8396 [egg-watcher:application] watcher start success
+2019-02-27 10:12:40,001 INFO 8396 [egg:core] dump config after ready, 10ms
+2019-02-27 10:46:23,120 INFO 28244 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 10:46:23,150 INFO 28244 [egg-multipart] stream mode enable
+2019-02-27 10:46:23,925 INFO 28244 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 10:46:23,952 INFO 28244 [egg-security] use methodnoallow middleware
+2019-02-27 10:46:23,953 INFO 28244 [egg-security] use noopen middleware
+2019-02-27 10:46:23,954 INFO 28244 [egg-security] use nosniff middleware
+2019-02-27 10:46:23,955 INFO 28244 [egg-security] use xssProtection middleware
+2019-02-27 10:46:23,956 INFO 28244 [egg-security] use xframe middleware
+2019-02-27 10:46:23,956 INFO 28244 [egg-security] use dta middleware
+2019-02-27 10:46:23,956 INFO 28244 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 10:46:23,972 INFO 28244 [egg:core] dump config after load, 11ms
+2019-02-27 10:46:24,006 INFO 28244 [egg-watcher:application] watcher start success
+2019-02-27 10:46:24,022 INFO 28244 [egg:core] dump config after ready, 14ms
+2019-02-27 11:20:24,725 INFO 22892 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 11:20:24,765 INFO 22892 [egg-multipart] stream mode enable
+2019-02-27 11:20:25,527 INFO 22892 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 11:20:25,550 INFO 22892 [egg-security] use methodnoallow middleware
+2019-02-27 11:20:25,550 INFO 22892 [egg-security] use noopen middleware
+2019-02-27 11:20:25,550 INFO 22892 [egg-security] use nosniff middleware
+2019-02-27 11:20:25,550 INFO 22892 [egg-security] use xssProtection middleware
+2019-02-27 11:20:25,550 INFO 22892 [egg-security] use xframe middleware
+2019-02-27 11:20:25,550 INFO 22892 [egg-security] use dta middleware
+2019-02-27 11:20:25,550 INFO 22892 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 11:20:25,570 INFO 22892 [egg:core] dump config after load, 10ms
+2019-02-27 11:20:25,624 INFO 22892 [egg-watcher:application] watcher start success
+2019-02-27 11:20:25,640 INFO 22892 [egg:core] dump config after ready, 14ms
+2019-02-27 11:37:52,156 INFO 7544 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 11:37:52,191 INFO 7544 [egg-multipart] stream mode enable
+2019-02-27 11:37:52,268 INFO 7544 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 11:37:52,271 INFO 7544 [egg-security] use methodnoallow middleware
+2019-02-27 11:37:52,271 INFO 7544 [egg-security] use noopen middleware
+2019-02-27 11:37:52,272 INFO 7544 [egg-security] use nosniff middleware
+2019-02-27 11:37:52,273 INFO 7544 [egg-security] use xssProtection middleware
+2019-02-27 11:37:52,273 INFO 7544 [egg-security] use xframe middleware
+2019-02-27 11:37:52,274 INFO 7544 [egg-security] use dta middleware
+2019-02-27 11:37:52,274 INFO 7544 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 11:37:52,280 INFO 7544 [egg:core] dump config after load, 0ms
+2019-02-27 11:37:52,310 INFO 7544 [egg-watcher:application] watcher start success
+2019-02-27 11:37:52,320 INFO 7544 [egg:core] dump config after ready, 10ms
+2019-02-27 11:37:53,814 INFO 34068 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 11:37:53,858 INFO 34068 [egg-multipart] stream mode enable
+2019-02-27 11:37:53,950 INFO 34068 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 11:37:53,953 INFO 34068 [egg-security] use methodnoallow middleware
+2019-02-27 11:37:53,953 INFO 34068 [egg-security] use noopen middleware
+2019-02-27 11:37:53,955 INFO 34068 [egg-security] use nosniff middleware
+2019-02-27 11:37:53,955 INFO 34068 [egg-security] use xssProtection middleware
+2019-02-27 11:37:53,956 INFO 34068 [egg-security] use xframe middleware
+2019-02-27 11:37:53,956 INFO 34068 [egg-security] use dta middleware
+2019-02-27 11:37:53,956 INFO 34068 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 11:37:53,972 INFO 34068 [egg:core] dump config after load, 11ms
+2019-02-27 11:37:53,995 INFO 34068 [egg-watcher:application] watcher start success
+2019-02-27 11:37:54,007 INFO 34068 [egg:core] dump config after ready, 9ms
+2019-02-27 11:42:50,554 INFO 15412 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 11:42:50,586 INFO 15412 [egg-multipart] stream mode enable
+2019-02-27 11:42:50,666 INFO 15412 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 11:42:50,666 INFO 15412 [egg-security] use methodnoallow middleware
+2019-02-27 11:42:50,666 INFO 15412 [egg-security] use noopen middleware
+2019-02-27 11:42:50,666 INFO 15412 [egg-security] use nosniff middleware
+2019-02-27 11:42:50,666 INFO 15412 [egg-security] use xssProtection middleware
+2019-02-27 11:42:50,666 INFO 15412 [egg-security] use xframe middleware
+2019-02-27 11:42:50,666 INFO 15412 [egg-security] use dta middleware
+2019-02-27 11:42:50,666 INFO 15412 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 11:42:52,695 INFO 15412 [egg:core] dump config after load, 10ms
+2019-02-27 11:42:52,755 INFO 15412 [egg-watcher:application] watcher start success
+2019-02-27 11:42:52,765 INFO 15412 [egg:core] dump config after ready, 10ms
+2019-02-27 11:49:53,006 INFO 28288 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 11:49:53,046 INFO 28288 [egg-multipart] stream mode enable
+2019-02-27 11:49:53,983 INFO 28288 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 11:49:53,983 INFO 28288 [egg-security] use methodnoallow middleware
+2019-02-27 11:49:53,983 INFO 28288 [egg-security] use noopen middleware
+2019-02-27 11:49:53,983 INFO 28288 [egg-security] use nosniff middleware
+2019-02-27 11:49:53,983 INFO 28288 [egg-security] use xssProtection middleware
+2019-02-27 11:49:53,983 INFO 28288 [egg-security] use xframe middleware
+2019-02-27 11:49:53,983 INFO 28288 [egg-security] use dta middleware
+2019-02-27 11:49:53,983 INFO 28288 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 11:49:55,895 INFO 28288 [egg:core] dump config after load, 10ms
+2019-02-27 11:49:55,955 INFO 28288 [egg-watcher:application] watcher start success
+2019-02-27 11:49:55,965 INFO 28288 [egg:core] dump config after ready, 10ms
+2019-02-27 12:44:34,289 WARN 28288 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-02-27 12:44:36,727 WARN 28288 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 14:01:34,500 WARN 28288 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-02-27 14:29:37,271 INFO 9100 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 14:29:37,301 INFO 9100 [egg-multipart] stream mode enable
+2019-02-27 14:29:38,176 INFO 9100 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 14:29:38,176 INFO 9100 [egg-security] use methodnoallow middleware
+2019-02-27 14:29:38,176 INFO 9100 [egg-security] use noopen middleware
+2019-02-27 14:29:38,176 INFO 9100 [egg-security] use nosniff middleware
+2019-02-27 14:29:38,176 INFO 9100 [egg-security] use xssProtection middleware
+2019-02-27 14:29:38,186 INFO 9100 [egg-security] use xframe middleware
+2019-02-27 14:29:38,186 INFO 9100 [egg-security] use dta middleware
+2019-02-27 14:29:38,186 INFO 9100 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 14:29:40,495 INFO 9100 [egg:core] dump config after load, 25ms
+2019-02-27 14:29:39,848 INFO 38992 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 14:29:39,888 INFO 38992 [egg-multipart] stream mode enable
+2019-02-27 14:29:39,968 INFO 38992 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 14:29:39,968 INFO 38992 [egg-security] use methodnoallow middleware
+2019-02-27 14:29:39,968 INFO 38992 [egg-security] use noopen middleware
+2019-02-27 14:29:39,968 INFO 38992 [egg-security] use nosniff middleware
+2019-02-27 14:29:39,968 INFO 38992 [egg-security] use xssProtection middleware
+2019-02-27 14:29:39,968 INFO 38992 [egg-security] use xframe middleware
+2019-02-27 14:29:39,968 INFO 38992 [egg-security] use dta middleware
+2019-02-27 14:29:39,968 INFO 38992 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 14:29:40,493 INFO 38992 [egg:core] dump config after load, 22ms
+2019-02-27 14:29:40,571 INFO 38992 [egg-watcher:application] watcher start success
+2019-02-27 14:29:40,591 INFO 38992 [egg:core] dump config after ready, 20ms
+2019-02-27 14:29:41,977 INFO 29308 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 14:29:42,017 INFO 29308 [egg-multipart] stream mode enable
+2019-02-27 14:29:42,097 INFO 29308 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 14:29:42,097 INFO 29308 [egg-security] use methodnoallow middleware
+2019-02-27 14:29:42,097 INFO 29308 [egg-security] use noopen middleware
+2019-02-27 14:29:42,097 INFO 29308 [egg-security] use nosniff middleware
+2019-02-27 14:29:42,097 INFO 29308 [egg-security] use xssProtection middleware
+2019-02-27 14:29:42,097 INFO 29308 [egg-security] use xframe middleware
+2019-02-27 14:29:42,097 INFO 29308 [egg-security] use dta middleware
+2019-02-27 14:29:42,097 INFO 29308 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 14:29:42,327 INFO 29308 [egg:core] dump config after load, 10ms
+2019-02-27 14:29:42,377 INFO 29308 [egg-watcher:application] watcher start success
+2019-02-27 14:29:42,397 INFO 29308 [egg:core] dump config after ready, 20ms
+2019-02-27 14:31:07,163 INFO 34224 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 14:31:07,213 INFO 34224 [egg-multipart] stream mode enable
+2019-02-27 14:31:07,305 INFO 34224 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 14:31:07,312 INFO 34224 [egg-security] use methodnoallow middleware
+2019-02-27 14:31:07,313 INFO 34224 [egg-security] use noopen middleware
+2019-02-27 14:31:07,314 INFO 34224 [egg-security] use nosniff middleware
+2019-02-27 14:31:07,314 INFO 34224 [egg-security] use xssProtection middleware
+2019-02-27 14:31:07,315 INFO 34224 [egg-security] use xframe middleware
+2019-02-27 14:31:07,315 INFO 34224 [egg-security] use dta middleware
+2019-02-27 14:31:07,315 INFO 34224 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 14:31:07,329 INFO 34224 [egg:core] dump config after load, 9ms
+2019-02-27 14:31:07,342 INFO 34224 [egg-watcher:application] watcher start success
+2019-02-27 14:31:07,382 INFO 34224 [egg:core] dump config after ready, 30ms
+2019-02-27 14:31:08,901 INFO 7676 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 14:31:08,945 INFO 7676 [egg-multipart] stream mode enable
+2019-02-27 14:31:09,034 INFO 7676 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 14:31:09,037 INFO 7676 [egg-security] use methodnoallow middleware
+2019-02-27 14:31:09,039 INFO 7676 [egg-security] use noopen middleware
+2019-02-27 14:31:09,040 INFO 7676 [egg-security] use nosniff middleware
+2019-02-27 14:31:09,040 INFO 7676 [egg-security] use xssProtection middleware
+2019-02-27 14:31:09,041 INFO 7676 [egg-security] use xframe middleware
+2019-02-27 14:31:09,041 INFO 7676 [egg-security] use dta middleware
+2019-02-27 14:31:09,041 INFO 7676 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 14:31:09,056 INFO 7676 [egg:core] dump config after load, 10ms
+2019-02-27 14:31:09,082 INFO 7676 [egg-watcher:application] watcher start success
+2019-02-27 14:31:09,094 INFO 7676 [egg:core] dump config after ready, 10ms
+2019-02-27 14:46:36,839 INFO 29836 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 14:46:36,877 INFO 29836 [egg-multipart] stream mode enable
+2019-02-27 14:46:36,959 INFO 29836 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 14:46:36,962 INFO 29836 [egg-security] use methodnoallow middleware
+2019-02-27 14:46:36,963 INFO 29836 [egg-security] use noopen middleware
+2019-02-27 14:46:36,963 INFO 29836 [egg-security] use nosniff middleware
+2019-02-27 14:46:36,964 INFO 29836 [egg-security] use xssProtection middleware
+2019-02-27 14:46:36,964 INFO 29836 [egg-security] use xframe middleware
+2019-02-27 14:46:36,965 INFO 29836 [egg-security] use dta middleware
+2019-02-27 14:46:36,965 INFO 29836 [egg-security] compose 6 middlewares into one security middleware
+2019-02-27 14:46:36,979 INFO 29836 [egg:core] dump config after load, 10ms
+2019-02-27 14:46:37,006 INFO 29836 [egg-watcher:application] watcher start success
+2019-02-27 14:46:37,020 INFO 29836 [egg:core] dump config after ready, 11ms
+2019-02-27 16:20:39,549 INFO 35440 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 16:20:39,579 INFO 35440 [egg-multipart] stream mode enable
+2019-02-27 16:20:40,980 INFO 35440 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 16:20:41,020 INFO 35440 [egg:core] dump config after load, 30ms
+2019-02-27 16:20:41,053 INFO 35440 [egg-watcher:application] watcher start success
+2019-02-27 16:20:41,083 INFO 35440 [egg:core] dump config after ready, 28ms
+2019-02-27 16:20:42,586 INFO 29392 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 16:20:42,626 INFO 29392 [egg-multipart] stream mode enable
+2019-02-27 16:20:42,706 INFO 29392 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 16:20:42,726 INFO 29392 [egg:core] dump config after load, 10ms
+2019-02-27 16:20:42,746 INFO 29392 [egg-watcher:application] watcher start success
+2019-02-27 16:20:42,776 INFO 29392 [egg:core] dump config after ready, 30ms
+2019-02-27 16:21:44,790 INFO 12488 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 16:21:44,820 INFO 12488 [egg-multipart] stream mode enable
+2019-02-27 16:21:44,900 INFO 12488 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 16:21:44,910 INFO 12488 [egg:core] dump config after load, 10ms
+2019-02-27 16:21:44,934 INFO 12488 [egg-watcher:application] watcher start success
+2019-02-27 16:21:45,002 INFO 12488 [egg:core] dump config after ready, 64ms
+2019-02-27 17:00:53,167 INFO 1856 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-27 17:00:53,207 INFO 1856 [egg-multipart] stream mode enable
+2019-02-27 17:00:55,977 INFO 1856 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-27 17:00:56,037 INFO 1856 [egg:core] dump config after load, 50ms
+2019-02-27 17:00:56,070 INFO 1856 [egg-watcher:application] watcher start success
+2019-02-27 17:00:56,075 INFO 1856 [egg:core] dump config after ready, 2ms
+2019-02-28 16:27:54,560 INFO 34088 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-28 16:27:54,604 INFO 34088 [egg-multipart] stream mode enable
+2019-02-28 16:27:55,876 INFO 34088 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-28 16:27:55,912 INFO 34088 [egg:core] dump config after load, 21ms
+2019-02-28 16:27:56,017 INFO 34088 [egg-watcher:application] watcher start success
+2019-02-28 16:27:56,064 INFO 34088 [egg:core] dump config after ready, 14ms
+2019-02-28 16:27:57,570 INFO 22388 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-28 16:27:57,612 INFO 22388 [egg-multipart] stream mode enable
+2019-02-28 16:27:58,052 INFO 22388 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-28 16:27:58,067 INFO 22388 [egg:core] dump config after load, 9ms
+2019-02-28 16:27:58,136 INFO 22388 [egg-watcher:application] watcher start success
+2019-02-28 16:27:58,172 INFO 22388 [egg:core] dump config after ready, 11ms
+2019-02-28 16:29:03,116 INFO 18976 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-28 16:29:03,155 INFO 18976 [egg-multipart] stream mode enable
+2019-02-28 16:29:09,247 INFO 18976 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-28 16:29:09,283 INFO 18976 [egg:core] dump config after load, 31ms
+2019-02-28 16:29:09,573 INFO 18976 [egg-watcher:application] watcher start success
+2019-02-28 16:29:09,588 INFO 18976 [egg:core] dump config after ready, 12ms
+2019-02-28 16:29:32,473 INFO 37144 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-28 16:29:32,511 INFO 37144 [egg-multipart] stream mode enable
+2019-02-28 16:29:32,983 INFO 37144 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-28 16:29:33,000 INFO 37144 [egg:core] dump config after load, 11ms
+2019-02-28 16:29:33,090 INFO 37144 [egg-watcher:application] watcher start success
+2019-02-28 16:29:33,356 INFO 37144 [egg:core] dump config after ready, 15ms
+2019-02-28 16:29:59,824 INFO 34032 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-28 16:29:59,863 INFO 34032 [egg-multipart] stream mode enable
+2019-02-28 16:30:00,388 INFO 34032 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-28 16:30:00,403 INFO 34032 [egg:core] dump config after load, 9ms
+2019-02-28 16:30:00,473 INFO 34032 [egg-watcher:application] watcher start success
+2019-02-28 16:30:02,140 INFO 34032 [egg:core] dump config after ready, 16ms
+2019-02-28 16:31:18,494 INFO 5632 [egg:logger] init all loggers with options: {"dir":"E:\\我的毕设\\Hua-egg\\logs\\Hua-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Hua-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-28 16:31:18,535 INFO 5632 [egg-multipart] stream mode enable
+2019-02-28 16:31:19,016 INFO 5632 [egg-static] starting static serve /public/ -> E:\我的毕设\Hua-egg\app\public
+2019-02-28 16:31:19,033 INFO 5632 [egg:core] dump config after load, 12ms
+2019-02-28 16:31:19,112 INFO 5632 [egg-watcher:application] watcher start success
+2019-02-28 16:31:19,140 INFO 5632 [egg:core] dump config after ready, 10ms

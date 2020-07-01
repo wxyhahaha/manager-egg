@@ -1,0 +1,25 @@
+// This file is created by egg-ts-helper
+// Do not modify this file!!!!!!!!!
+
+import 'egg';
+import ExportBase = require('../../../app/service/base');
+import ExportAdminAddress = require('../../../app/service/admin/address');
+import ExportAdminCategory = require('../../../app/service/admin/category');
+import ExportAdminGoods = require('../../../app/service/admin/goods');
+import ExportAdminLogin = require('../../../app/service/admin/login');
+import ExportAdminOrder = require('../../../app/service/admin/order');
+import ExportAdminUser = require('../../../app/service/admin/user');
+
+declare module 'egg' {
+  interface IService {
+    base: ExportBase;
+    admin: {
+      address: ExportAdminAddress;
+      category: ExportAdminCategory;
+      goods: ExportAdminGoods;
+      login: ExportAdminLogin;
+      order: ExportAdminOrder;
+      user: ExportAdminUser;
+    }
+  }
+}

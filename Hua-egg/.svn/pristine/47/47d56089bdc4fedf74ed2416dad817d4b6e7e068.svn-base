@@ -1,0 +1,29 @@
+// This file is created by egg-ts-helper
+// Do not modify this file!!!!!!!!!
+
+import 'egg';
+import ExportAdminAddress = require('../../../app/controller/admin/address');
+import ExportAdminCategory = require('../../../app/controller/admin/category');
+import ExportAdminGoods = require('../../../app/controller/admin/goods');
+import ExportAdminLogin = require('../../../app/controller/admin/login');
+import ExportAdminOrder = require('../../../app/controller/admin/order');
+import ExportAdminUser = require('../../../app/controller/admin/user');
+import ExportHuafrontGoods = require('../../../app/controller/huafront/goods');
+import ExportHuafrontHome = require('../../../app/controller/huafront/home');
+
+declare module 'egg' {
+  interface IController {
+    admin: {
+      address: ExportAdminAddress;
+      category: ExportAdminCategory;
+      goods: ExportAdminGoods;
+      login: ExportAdminLogin;
+      order: ExportAdminOrder;
+      user: ExportAdminUser;
+    }
+    huafront: {
+      goods: ExportHuafrontGoods;
+      home: ExportHuafrontHome;
+    }
+  }
+}

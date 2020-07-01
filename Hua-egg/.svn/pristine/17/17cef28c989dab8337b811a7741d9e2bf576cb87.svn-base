@@ -1,0 +1,61 @@
+'use strict';
+
+const Controller = require('egg').Controller;
+const jwt = require('jsonwebtoken');
+const captchapng = require('captchapng')
+class LoginController extends Controller {
+  async login() {
+    const { ctx, app, service } = this;
+    let { username, password, imgcode } =ctx.request.body
+    // console.log('imgcodimgcodeimgcodee',username, password, imgcode)
+    let session_imgcode = ctx.session.captcha
+    ctx.session.captcha = '';
+    // console.log(imgcode,session_imgcode)
+    // console.log(typeof imgcode, typeof session_imgcode)
+    if(!imgcode || imgcode !==session_imgcode){
+      return ctx.body = { code:300,msg:'imgcode fail' }
+    }
+    try{
+      let roleId = '1'
+      let privateKey = this.app.config.privateKey
+      password = await ctx.helper.md5Password(password,privateKey)
+      let user = await service.admin.login.verifyUser(username,password,roleId)
+      if(user.isPass){
+        let signData = jwt.sign({
+          exp: Math.floor(Date.now() / 1000) + 60 ,
+          data: {username:username}
+        }, app.config.privateKey);
+        await service.admin.login.updateToken(username,signData)
+       return ctx.body = { code:0, msg:'login success', data:{ user:user.user, newtoken:signData }}
+      }
+      else{ 
+        return ctx.body = { code:404,msg:'login fail' } 
+      }
+    }catch(e){
+      ctx.logger.info(e,'登录失败')
+      return ctx.body = { code:500,msg:'login fail' } 
+    }
+
+  }
+  async captcha(){   
+    let { ctx } = this
+    // console.log(ctx.session)
+    let captcha = parseInt(Math.random()*9000 + 1000)
+    let codePng = new captchapng(80, 30, captcha)
+    codePng.color(0,0,205,.5) //背景
+    codePng.color(230,230,250)
+    let img = codePng.getBase64();
+    let imgbase64 = new Buffer(img, 'base64')
+      // 把验证码保存到session中,用于用户提交留言时校验
+      ctx.session.captcha = captcha.toString();
+      // console.log(ctx.session)
+      ctx.cookies.set('key', ctx.session.captcha);
+      ctx.type = 'image/png';
+      ctx.body = {
+        code:0,
+        data:img
+      }      
+  }
+}
+ 
+module.exports = LoginController;

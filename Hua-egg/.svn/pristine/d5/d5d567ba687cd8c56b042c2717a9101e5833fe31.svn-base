@@ -1,0 +1,55 @@
+
+/**
+ * 
+ * @param {*} num 
+ */
+const getRandomId = function(num){  
+    let digit = num
+    if(num <6 ) num = 6;
+    let b = [9];
+    let c = [1];
+    for(let i = 0;i < digit-1;i++){ 
+        b.push(9);
+        c.push(0) 
+    }
+    num = parseInt(String(b).replace(/,/g,''))
+    n = parseInt(String(c).replace(/,/g,''))
+    let someId = parseInt(Math.random()*num+n )
+    let someIdArr = [...String(someId)]
+    let a = []
+    for(let i = 0;i < 6;i++){
+        var result = someIdArr[parseInt(Math.random()*6)]
+        a.push(result)
+    }
+    return parseInt(String(a).replace(/,/g,''))
+}
+const checkSeachData = function(data){
+    let obj = {}
+    for(let key in data){
+        if(typeof data[key] === 'string' ||typeof data[key] === 'number'){
+            if(data[key] !== undefined &&data[key]!==''&&data[key]!==null ){
+                obj[key] = data[key]           
+            }
+        }
+        else{
+            for(let k  in data[key]){
+                if(data[key][k]!== undefined &&data[key][k]!==''&&data[key][k]!==null ){
+                    obj[key][k] = data[key][k]           
+                }
+            }
+        }
+        
+    }
+    return obj
+}
+const getOrderNum = function(){
+    let timeTamp = new Date()
+    let str ='OD'+timeTamp.getTime().toString().slice(6) + parseInt(Math.random()*9000+1000)
+    return str
+
+}
+module.exports ={
+    getRandomId,
+    checkSeachData,
+    getOrderNum
+}

@@ -1,0 +1,37 @@
+// This file is created by egg-ts-helper
+// Do not modify this file!!!!!!!!!
+
+import 'egg';
+import ExportAdminAddress = require('../../../app/controller/admin/address');
+import ExportAdminCaptcha = require('../../../app/controller/admin/captcha');
+import ExportAdminCategory = require('../../../app/controller/admin/category');
+import ExportAdminChecktoken = require('../../../app/controller/admin/checktoken');
+import ExportAdminFile = require('../../../app/controller/admin/file');
+import ExportAdminGoods = require('../../../app/controller/admin/goods');
+import ExportAdminImage = require('../../../app/controller/admin/image');
+import ExportAdminLogin = require('../../../app/controller/admin/login');
+import ExportAdminOrder = require('../../../app/controller/admin/order');
+import ExportAdminUser = require('../../../app/controller/admin/user');
+import ExportHuafrontGoods = require('../../../app/controller/huafront/goods');
+import ExportHuafrontHome = require('../../../app/controller/huafront/home');
+
+declare module 'egg' {
+  interface IController {
+    admin: {
+      address: ExportAdminAddress;
+      captcha: ExportAdminCaptcha;
+      category: ExportAdminCategory;
+      checktoken: ExportAdminChecktoken;
+      file: ExportAdminFile;
+      goods: ExportAdminGoods;
+      image: ExportAdminImage;
+      login: ExportAdminLogin;
+      order: ExportAdminOrder;
+      user: ExportAdminUser;
+    }
+    huafront: {
+      goods: ExportHuafrontGoods;
+      home: ExportHuafrontHome;
+    }
+  }
+}

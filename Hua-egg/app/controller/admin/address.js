@@ -1,0 +1,110 @@
+'use strict';
+
+const Controller = require('egg').Controller;
+
+class AddressController extends Controller {
+    async insert(){ 
+        const { ctx, app } = this;
+        let { userId, userName, userPhone, areaIdPath, userAddress, isDefault } = ctx.request.body;
+        let addressId = ctx.helper.getRandomId(6)
+        let searchData = { userId, userName, userPhone, areaIdPath,addressId, userAddress, isDefault }
+        let obj = ctx.helper.checkSeachData(searchData)
+        
+        try{
+          await app.model.Address.create(obj)
+          ctx.body = {
+            'data':{
+              code:0,
+              'result':'success',
+            }
+          };
+        }
+        catch(e){
+            ctx.logger.error('添加失败',e)
+            ctx.body = {
+                'data':{
+                  code:400,
+                  'result':'fail',
+                }
+              };
+        }
+      }
+     async list(){ 
+         let { ctx, app, service } = this;
+         let { Op } = this.app.Sequelize
+         let { Sequelize } = app
+         let { 
+             userId, 
+             userName,
+             isDefault,
+             dateAdd,
+             dateUpdate,
+             pageSize,
+             page
+            } = ctx.request.body
+        let searchData = {             
+          userId, 
+          userName,
+          isDefault,
+          dateAdd,
+          dateUpdate, 
+        }
+
+        let where = ctx.helper.checkSeachData(searchData)
+        // ctx.helper.checkSeachData()
+         let options = {
+             where,
+             offset:(page -1) * pageSize,
+             limit:pageSize,
+         }
+         try{
+            var data = await service.admin.address.fitchData(options);
+         }catch(e){
+             ctx.logger.info('查询失败',e)
+         }
+         ctx.body={
+             code:0,
+             msg:'success',
+             result:data,
+            //  count:count
+         }
+         
+      }
+     async update(){ 
+       let { app, ctx } = this;
+       let {
+        userId,
+        userName,
+        isDefault,
+        userAddress,
+        userPhone
+       } = ctx.request.body
+       let data = {
+        userName,
+        isDefault,
+        userAddress,
+        userPhone
+       }
+       let options = { 
+          where: { userId }
+       }
+       let obj = ctx.helper.checkSeachData(data)
+       await app.model.Address.update(obj,options)
+       ctx.body = {
+         code:0,
+         msg:'success'
+       }
+      }
+     async delete(){ 
+       let { app, ctx } = this;
+       let { id } = ctx.request.body
+       let where = { id }
+       await app.model.Address.destroy({ where })
+       ctx.body = {
+          code:0,
+          msg:'success'
+        }
+      }
+}
+
+module.exports = AddressController;

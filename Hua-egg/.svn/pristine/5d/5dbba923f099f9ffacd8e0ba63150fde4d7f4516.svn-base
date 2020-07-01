@@ -1,0 +1,47 @@
+2019-02-28 16:27:56,008 INFO 34088 [egg-sequelize](67ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:27:56,019 INFO 34088 [egg-sequelize](18ms) Executed (default): SELECT 1+1 AS result
+2019-02-28 16:27:56,021 INFO 34088 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:27:56,028 INFO 34088 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS `users` (`username` VARCHAR(255) NOT NULL UNIQUE, `email` VARCHAR(255) NOT NULL UNIQUE, `password` VARCHAR(255) NOT NULL, `name` VARCHAR(255), `sex` INTEGER, `age` INTEGER, `avatar` VARCHAR(255), `company` VARCHAR(255), `department` VARCHAR(255), `telePhone` VARCHAR(255), `mobilePhone` VARCHAR(255), `info` VARCHAR(255), `roleId` VARCHAR(255), `status` VARCHAR(255), `token` VARCHAR(255), `lastSignInAt` DATETIME, `id` UUID PRIMARY KEY, `dateAdd` DATETIME NOT NULL, `dateUpdate` DATETIME NOT NULL, `version` INTEGER NOT NULL DEFAULT 0);
+2019-02-28 16:27:56,032 INFO 34088 [egg-sequelize](1ms) Executed (default): PRAGMA INDEX_LIST(`users`)
+2019-02-28 16:27:56,036 INFO 34088 [egg-sequelize](1ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:27:56,037 INFO 34088 [egg-sequelize](2ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:27:56,039 INFO 34088 [egg-sequelize](3ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:27:58,129 INFO 22388 [egg-sequelize](44ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:27:58,139 INFO 22388 [egg-sequelize](15ms) Executed (default): SELECT 1+1 AS result
+2019-02-28 16:27:58,141 INFO 22388 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:27:58,145 INFO 22388 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS `users` (`username` VARCHAR(255) NOT NULL UNIQUE, `email` VARCHAR(255) NOT NULL UNIQUE, `password` VARCHAR(255) NOT NULL, `name` VARCHAR(255), `sex` INTEGER, `age` INTEGER, `avatar` VARCHAR(255), `company` VARCHAR(255), `department` VARCHAR(255), `telePhone` VARCHAR(255), `mobilePhone` VARCHAR(255), `info` VARCHAR(255), `roleId` VARCHAR(255), `status` VARCHAR(255), `token` VARCHAR(255), `lastSignInAt` DATETIME, `id` UUID PRIMARY KEY, `dateAdd` DATETIME NOT NULL, `dateUpdate` DATETIME NOT NULL, `version` INTEGER NOT NULL DEFAULT 0);
+2019-02-28 16:27:58,147 INFO 22388 [egg-sequelize](0ms) Executed (default): PRAGMA INDEX_LIST(`users`)
+2019-02-28 16:27:58,150 INFO 22388 [egg-sequelize](1ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:27:58,152 INFO 22388 [egg-sequelize](2ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:27:58,155 INFO 22388 [egg-sequelize](6ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:29:09,506 INFO 18976 [egg-sequelize](199ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:29:09,513 INFO 18976 [egg-sequelize](34ms) Executed (default): SELECT 1+1 AS result
+2019-02-28 16:29:09,515 INFO 18976 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:29:09,539 INFO 18976 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS `users` (`username` VARCHAR(255) NOT NULL UNIQUE, `email` VARCHAR(255) NOT NULL UNIQUE, `password` VARCHAR(255) NOT NULL, `name` VARCHAR(255), `sex` INTEGER, `age` INTEGER, `avatar` VARCHAR(255), `company` VARCHAR(255), `department` VARCHAR(255), `telePhone` VARCHAR(255), `mobilePhone` VARCHAR(255), `info` VARCHAR(255), `roleId` VARCHAR(255), `status` VARCHAR(255), `token` VARCHAR(255), `lastSignInAt` DATETIME, `id` UUID PRIMARY KEY, `dateAdd` DATETIME NOT NULL, `dateUpdate` DATETIME NOT NULL, `version` INTEGER NOT NULL DEFAULT 0);
+2019-02-28 16:29:09,545 INFO 18976 [egg-sequelize](1ms) Executed (default): PRAGMA INDEX_LIST(`users`)
+2019-02-28 16:29:09,548 INFO 18976 [egg-sequelize](0ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:29:09,549 INFO 18976 [egg-sequelize](2ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:29:09,553 INFO 18976 [egg-sequelize](5ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:29:33,082 INFO 37144 [egg-sequelize](57ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:29:33,095 INFO 37144 [egg-sequelize](21ms) Executed (default): SELECT 1+1 AS result
+2019-02-28 16:29:33,098 INFO 37144 [egg-sequelize](4ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:29:33,320 INFO 37144 [egg-sequelize](216ms) Executed (default): CREATE TABLE IF NOT EXISTS `users` (`username` VARCHAR(255) NOT NULL UNIQUE, `email` VARCHAR(255) NOT NULL UNIQUE, `password` VARCHAR(255) NOT NULL, `name` VARCHAR(255), `sex` INTEGER, `age` INTEGER, `avatar` VARCHAR(255), `company` VARCHAR(255), `department` VARCHAR(255), `telePhone` VARCHAR(255), `mobilePhone` VARCHAR(255), `info` VARCHAR(255), `roleId` VARCHAR(255), `status` VARCHAR(255), `token` VARCHAR(255), `lastSignInAt` DATETIME, `id` UUID PRIMARY KEY, `dateAdd` DATETIME NOT NULL, `dateUpdate` DATETIME NOT NULL, `version` INTEGER NOT NULL DEFAULT 0);
+2019-02-28 16:29:33,326 INFO 37144 [egg-sequelize](1ms) Executed (default): PRAGMA INDEX_LIST(`users`)
+2019-02-28 16:29:33,329 INFO 37144 [egg-sequelize](1ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:29:33,332 INFO 37144 [egg-sequelize](4ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:29:33,335 INFO 37144 [egg-sequelize](7ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:30:01,214 INFO 34032 [egg-sequelize](794ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:30:01,223 INFO 34032 [egg-sequelize](762ms) Executed (default): SELECT 1+1 AS result
+2019-02-28 16:30:01,225 INFO 34032 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS `users`;
+2019-02-28 16:30:02,074 INFO 34032 [egg-sequelize](842ms) Executed (default): CREATE TABLE IF NOT EXISTS `users` (`username` VARCHAR(255) NOT NULL UNIQUE, `email` VARCHAR(255) NOT NULL UNIQUE, `password` VARCHAR(255) NOT NULL, `name` VARCHAR(255), `sex` INTEGER, `age` INTEGER, `avatar` VARCHAR(255), `company` VARCHAR(255), `department` VARCHAR(255), `telePhone` VARCHAR(255), `mobilePhone` VARCHAR(255), `info` VARCHAR(255), `roleId` VARCHAR(255), `status` VARCHAR(255), `token` VARCHAR(255), `lastSignInAt` DATETIME, `id` UUID PRIMARY KEY, `dateAdd` DATETIME NOT NULL, `dateUpdate` DATETIME NOT NULL, `version` INTEGER NOT NULL DEFAULT 0);
+2019-02-28 16:30:02,080 INFO 34032 [egg-sequelize](1ms) Executed (default): PRAGMA INDEX_LIST(`users`)
+2019-02-28 16:30:02,087 INFO 34032 [egg-sequelize](3ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:30:02,097 INFO 34032 [egg-sequelize](12ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:30:02,113 INFO 34032 [egg-sequelize](27ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:31:19,103 INFO 5632 [egg-sequelize](48ms) Executed (default): CREATE TABLE IF NOT EXISTS `users` (`username` VARCHAR(255) NOT NULL UNIQUE, `email` VARCHAR(255) NOT NULL UNIQUE, `password` VARCHAR(255) NOT NULL, `name` VARCHAR(255), `sex` INTEGER, `age` INTEGER, `avatar` VARCHAR(255), `company` VARCHAR(255), `department` VARCHAR(255), `telePhone` VARCHAR(255), `mobilePhone` VARCHAR(255), `info` VARCHAR(255), `roleId` VARCHAR(255), `status` VARCHAR(255), `token` VARCHAR(255), `lastSignInAt` DATETIME, `id` UUID PRIMARY KEY, `dateAdd` DATETIME NOT NULL, `dateUpdate` DATETIME NOT NULL, `version` INTEGER NOT NULL DEFAULT 0);
+2019-02-28 16:31:19,113 INFO 5632 [egg-sequelize](14ms) Executed (default): SELECT 1+1 AS result
+2019-02-28 16:31:19,115 INFO 5632 [egg-sequelize](2ms) Executed (default): PRAGMA INDEX_LIST(`users`)
+2019-02-28 16:31:19,121 INFO 5632 [egg-sequelize](1ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:31:19,122 INFO 5632 [egg-sequelize](2ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 16:31:19,124 INFO 5632 [egg-sequelize](4ms) Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_users_3`)
+2019-02-28 17:06:34,626 WARN 5632 A client (::ffff:192.168.50.153:49950) error [HPE_INVALID_METHOD] occurred: Parse Error

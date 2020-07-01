@@ -1,0 +1,18 @@
+'use strict';
+
+/**
+ * @param {Egg.Application} app - egg application
+ */
+module.exports = app => {
+  let managerRouter = app.router.namespace(
+    '/manager',
+    app.middleware.auth()
+  )
+  const { router, controller } = app;
+  managerRouter.get('/index', controller.huafront.home.index);
+  managerRouter.post('/goods/insert', controller.huafront.goods.insert);
+  
+
+  app.router.post('/manager/admin/getCaptcha', controller.admin.login.captcha)
+  app.router.post('/manager/admin/login', controller.admin.login.login);
+};

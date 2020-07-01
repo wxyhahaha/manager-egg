@@ -1,0 +1,16 @@
+const db = require('../db')
+module.exports = app => {
+    const { STRING, INTEGER } = app.Sequelize
+    const Category = db.defineModel(app, 'category',{
+        // categoryid	自增P分类id	必填
+        // pid		父id		必填
+        // catName		分类名称		必填 
+          // catImg		分类图片
+        categoryId:{type:STRING,unique:true,allowNull:false},
+        pid:STRING,
+        catNo:STRING,
+        catName:STRING,
+        catImg:STRING
+    })
+    return Category
+}

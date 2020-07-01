@@ -1,0 +1,142 @@
+2019-02-25 10:16:05,007 INFO 7948 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-25 10:16:05,007 INFO 7948 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-25 10:16:06,025 INFO 12172 [Timer] E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js next time will execute after 49433990ms at 2019-02-26 00:00:00.015
+2019-02-25 10:16:06,026 INFO 12172 [Timer] E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49434975ms at 2019-02-26 00:00:01.001
+2019-02-25 10:30:45,837 INFO 17024 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-25 10:30:45,837 INFO 17024 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-25 11:07:08,306 INFO 15988 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-25 11:07:08,306 INFO 15988 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-25 11:07:11,824 INFO 8608 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-25 11:07:11,825 INFO 8608 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 15:36:47,767 INFO 25932 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 15:36:47,767 INFO 25932 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 15:36:57,331 INFO 35712 [Timer] E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js next time will execute after 30182918ms at 2019-02-27 00:00:00.249
+2019-02-26 15:36:57,332 INFO 35712 [Timer] E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 30183669ms at 2019-02-27 00:00:01.001
+2019-02-26 15:49:24,160 INFO 2768 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 15:49:24,160 INFO 2768 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 15:49:27,142 INFO 19924 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 15:49:27,142 INFO 19924 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 15:55:57,754 INFO 32520 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 15:55:57,754 INFO 32520 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 15:56:30,858 INFO 18288 [Timer] E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js next time will execute after 29009148ms at 2019-02-27 00:00:00.006
+2019-02-26 15:56:30,859 INFO 18288 [Timer] E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 29010141ms at 2019-02-27 00:00:01.000
+2019-02-26 15:56:30,643 INFO 8900 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 15:56:30,643 INFO 8900 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 15:56:42,659 INFO 27780 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 15:56:42,659 INFO 27780 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 16:09:06,055 INFO 8900 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 16:09:06,055 INFO 8900 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 16:09:10,186 INFO 18440 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 16:09:10,186 INFO 18440 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 16:10:11,654 INFO 30820 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 16:10:11,654 INFO 30820 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 16:39:12,045 INFO 25032 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\clean_log.js
+2019-02-26 16:39:12,045 INFO 25032 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\_egg-logrotator@3.0.5@egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-26 17:25:21,328 INFO 1560 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 23678692ms at 2019-02-27 00:00:00.020
+2019-02-26 17:25:21,329 INFO 1560 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 23679672ms at 2019-02-27 00:00:01.001
+2019-02-26 17:25:21,111 INFO 10708 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-26 17:25:21,111 INFO 10708 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:17:01,954 INFO 36236 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:17:01,954 INFO 36236 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:17:07,716 INFO 35964 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52972324ms at 2019-02-28 00:00:00.040
+2019-02-27 09:17:07,716 INFO 35964 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52973284ms at 2019-02-28 00:00:01.000
+2019-02-27 09:27:09,056 INFO 25528 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:27:09,056 INFO 25528 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:30:00,428 INFO 34988 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:30:00,428 INFO 34988 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:30:02,283 INFO 23640 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52197726ms at 2019-02-28 00:00:00.009
+2019-02-27 09:30:02,284 INFO 23640 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52198717ms at 2019-02-28 00:00:01.001
+2019-02-27 09:32:07,590 INFO 7356 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:32:07,590 INFO 7356 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:34:08,069 INFO 1828 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:34:08,069 INFO 1828 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:34:09,596 INFO 1172 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:34:09,596 INFO 1172 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:35:19,720 INFO 31232 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51880280ms at 2019-02-28 00:00:00.000
+2019-02-27 09:35:19,720 INFO 31232 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51881280ms at 2019-02-28 00:00:01.000
+2019-02-27 09:35:19,590 INFO 40156 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:35:19,590 INFO 40156 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:36:32,977 INFO 26916 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51807023ms at 2019-02-28 00:00:00.000
+2019-02-27 09:36:32,977 INFO 26916 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51808023ms at 2019-02-28 00:00:01.000
+2019-02-27 09:36:32,837 INFO 31456 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:36:32,837 INFO 31456 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:36:59,845 INFO 9828 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:36:59,845 INFO 9828 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:37:12,296 INFO 35168 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:37:12,296 INFO 35168 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:46:20,125 INFO 3020 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 09:46:20,125 INFO 3020 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 09:46:20,536 INFO 27960 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51219464ms at 2019-02-28 00:00:00.000
+2019-02-27 09:46:20,536 INFO 27960 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51220464ms at 2019-02-28 00:00:01.000
+2019-02-27 10:00:09,116 INFO 8452 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 10:00:09,116 INFO 8452 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 10:00:09,627 INFO 9172 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 50390383ms at 2019-02-28 00:00:00.010
+2019-02-27 10:00:09,627 INFO 9172 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 50391373ms at 2019-02-28 00:00:01.000
+2019-02-27 10:12:40,020 INFO 12420 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 49639990ms at 2019-02-28 00:00:00.010
+2019-02-27 10:12:40,020 INFO 12420 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49640980ms at 2019-02-28 00:00:01.000
+2019-02-27 10:12:39,321 INFO 8396 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 10:12:39,321 INFO 8396 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 10:46:23,150 INFO 28244 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 10:46:23,150 INFO 28244 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 10:46:24,060 INFO 8268 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47615951ms at 2019-02-28 00:00:00.011
+2019-02-27 10:46:24,061 INFO 8268 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47616940ms at 2019-02-28 00:00:01.001
+2019-02-27 11:20:24,765 INFO 22892 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 11:20:24,765 INFO 22892 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 11:20:25,725 INFO 40312 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 45574291ms at 2019-02-28 00:00:00.016
+2019-02-27 11:20:25,726 INFO 40312 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 45575275ms at 2019-02-28 00:00:01.001
+2019-02-27 11:37:52,191 INFO 7544 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 11:37:52,191 INFO 7544 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 11:37:53,857 INFO 34068 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 11:37:53,857 INFO 34068 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 11:42:50,586 INFO 15412 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 11:42:50,586 INFO 15412 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 11:49:53,046 INFO 28288 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 11:49:53,046 INFO 28288 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 11:49:55,975 INFO 10336 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43804025ms at 2019-02-28 00:00:00.000
+2019-02-27 11:49:55,975 INFO 10336 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43805025ms at 2019-02-28 00:00:01.000
+2019-02-27 14:29:37,301 INFO 9100 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 14:29:37,301 INFO 9100 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 14:29:39,888 INFO 38992 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 14:29:39,888 INFO 38992 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 14:29:40,611 INFO 28728 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 34219409ms at 2019-02-28 00:00:00.020
+2019-02-27 14:29:40,611 INFO 28728 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 34220389ms at 2019-02-28 00:00:01.000
+2019-02-27 14:29:42,017 INFO 29308 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 14:29:42,017 INFO 29308 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 14:31:07,213 INFO 34224 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 14:31:07,213 INFO 34224 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 14:31:08,944 INFO 7676 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 14:31:08,944 INFO 7676 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 14:46:37,028 INFO 17532 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 33202974ms at 2019-02-28 00:00:00.002
+2019-02-27 14:46:37,029 INFO 17532 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 33203971ms at 2019-02-28 00:00:01.000
+2019-02-27 14:46:36,877 INFO 29836 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 14:46:36,877 INFO 29836 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 16:20:39,579 INFO 35440 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 16:20:39,579 INFO 35440 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 16:20:41,093 INFO 38756 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 27558909ms at 2019-02-28 00:00:00.002
+2019-02-27 16:20:41,094 INFO 38756 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 27559907ms at 2019-02-28 00:00:01.001
+2019-02-27 16:20:42,626 INFO 29392 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 16:20:42,626 INFO 29392 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 16:21:44,820 INFO 12488 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 16:21:44,820 INFO 12488 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 17:00:53,207 INFO 1856 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-27 17:00:53,207 INFO 1856 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-27 17:00:56,134 INFO 28936 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25143886ms at 2019-02-28 00:00:00.020
+2019-02-27 17:00:56,134 INFO 28936 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25144866ms at 2019-02-28 00:00:01.000
+2019-02-28 16:27:54,603 INFO 34088 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-28 16:27:54,603 INFO 34088 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-28 16:27:56,106 INFO 14672 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 27123921ms at 2019-03-01 00:00:00.027
+2019-02-28 16:27:56,107 INFO 14672 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 27124894ms at 2019-03-01 00:00:01.001
+2019-02-28 16:27:57,612 INFO 22388 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-28 16:27:57,612 INFO 22388 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-28 16:29:03,154 INFO 18976 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-28 16:29:03,154 INFO 18976 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-28 16:29:09,688 INFO 30664 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 27050341ms at 2019-03-01 00:00:00.029
+2019-02-28 16:29:09,688 INFO 30664 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 27051312ms at 2019-03-01 00:00:01.000
+2019-02-28 16:29:32,510 INFO 37144 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-28 16:29:32,510 INFO 37144 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-28 16:29:59,863 INFO 34032 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-28 16:29:59,863 INFO 34032 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-28 16:30:02,155 INFO 13292 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 26997849ms at 2019-03-01 00:00:00.004
+2019-02-28 16:30:02,155 INFO 13292 [Timer] E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 26998845ms at 2019-03-01 00:00:01.000
+2019-02-28 16:31:18,534 INFO 5632 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-28 16:31:18,534 INFO 5632 [egg-schedule]: register schedule E:\我的毕设\Hua-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
